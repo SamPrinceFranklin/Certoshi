@@ -253,7 +253,7 @@ class GenerateCert extends React.Component {
     const accounts = await web3.eth.getAccounts();
     console.log(3);
     let caller = accounts[0];
-    console.log(4);
+    console.log(4,caller);
 
     // TODO: Fix bug
     let networkId;

@@ -13,8 +13,8 @@ module.exports = {
                     num_addresses=2
                 );
             },
-            network_id: 4,
-            // gas: 4500000,
+            network_id: 5,
+            gas: 4612388,
             // gasPrice: 10000000000,
         },
         development: {
