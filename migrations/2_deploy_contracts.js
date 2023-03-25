@@ -9,6 +9,6 @@ module.exports = async function(deployer) {
   const institution = await Institution.deployed()
 
   // Deploy Certification Contract
-  await deployer.deploy(Certification, institution.address)
+  await deployer.deploy(Certification, "0xae5677f490adb50e6579645e53ac48207a53a3b1")
   const certification = await Certification.deployed()
 };
